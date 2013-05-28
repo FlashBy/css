@@ -17,7 +17,7 @@ div {
 {
     height: 850px;
     width: 13%;
-    background-color: #A7DBD8;
+  /*  background-color: #A7DBD8;*/
     float: left;
     margin-bottom: 10px;
     margin-left:2%;
@@ -42,4 +42,27 @@ div {
 	background-color: #69D2E7;
 	/*Add your CSS here!*/
    	clear:both;
+}
+
+#nav { width:100%; border-color:#c5c6c4; border-style:solid; border-width:0px 1px 1px 1px;}
+#nav h1 {
+	margin:0px;
+	padding:4px;
+	font-size:1.8625em;
+	font-weight:bold;
+	font-family:Verdana;
+	border-top:1px solid #c5c6c4;
+	background-color:#CCCCCC;
+}
+#nav h2 {
+	margin:0px;
+	padding:4px;
+	font-size:1.2625em;
+	font-family:Verdana;
+	font-weight:normal;
+}
+#nav h2 a { color:#666666; text-decoration:none;}
+#nav h2 a:hover {
+	color:#111111;
+	text-decoration:underline;
 }

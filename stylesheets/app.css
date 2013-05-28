@@ -115,11 +115,11 @@ select {
 }
 .row .column,
 .row .columns {
-  position: relative;
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
-  width: 100%;
-  float: left;
+	position: relative;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	width: 100%;
+	float: left;
 }
 .row.collapse .column,
 .row.collapse .columns {
@@ -2846,12 +2846,12 @@ form.custom .custom.disabled {
 }
 
 .top-bar {
-  overflow: hidden;
-  height: 45px;
-  line-height: 45px;
-  position: relative;
-  background: #34495e;
-  margin-bottom: 1.875em;
+	overflow: hidden;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	background: #34495e;
+	margin-bottom: 0.5em;
 }
 .top-bar ul {
   margin-bottom: 0;
